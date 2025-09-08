@@ -1,0 +1,21 @@
+.width {
+  background-color: red;
+  width: 80%;
+  height: 200px;
+  /*박스가 커질수 있는 최대 폭*/
+  max-width: 1000px;
+  /*박스가 작아질 수 있는 최대 폭*/
+  min-width: 500px;
+}
+.height {
+  background: greenyellow;
+  width: 500px;
+  height: 50vh;
+  max-height: 600px;
+  min-height: 400px;
+}
+.width-height {
+  background-color: skyblue;
+  width: 70%;
+  height: 50vh;
+}

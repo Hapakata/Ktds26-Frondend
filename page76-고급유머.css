@@ -1,0 +1,44 @@
+body{
+    background-color: #666666;
+    margin: 0;
+}
+.wrapper{
+    width: 680px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.top{
+    background-color: #FFFF00;
+    border-bottom: 2px solid #aaaa00;
+}
+.post{
+    padding-left: 20px;
+}
+.post-detail{
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 0;
+}
+.comment-count{
+    font-size: 0.9rem;
+    color: #ccaa00;
+}
+ul{
+    padding-left: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    font-size: 0.76rem;
+}
+.category{
+    padding-right: 4px;
+    color: #ccaa00;
+}
+.no{
+    padding: 0 4px;
+    border-left: 1px solid #000000;
+}
+.time{
+    padding-left: 4px;
+    border-left: 1px solid #000000;
+}

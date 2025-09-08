@@ -1,0 +1,46 @@
+.header {
+  background-color: #fed50a;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #e3a20e;
+  width: 680px;
+}
+
+.logo,
+.my,
+.write,
+.logo-img {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("https://www.goodgag.net/_tpl/v3/_css/common.1px.png");
+  background-repeat: no-repeat;
+}
+
+.icon {
+  background-image: url("https://www.goodgag.net/_tpl/v3/_css/common.1px.png");
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  background-image: url("");
+  width: calc(680px - 115px);
+  padding-left: 10px;
+}
+.logo-img {
+  height: 37px;
+  width: 85px;
+}
+
+.my {
+  width: 40px;
+  height: 33px;
+  background-position: 0 -35px;
+}
+
+.write {
+  width: 35px;
+  height: 33px;
+  background-position: -40px -35px;
+}

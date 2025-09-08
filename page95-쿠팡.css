@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  color: #333;
+}
+
+.wrapper {
+  width: 992px;
+  margin: 0 auto;
+}
+
+.top {
+  margin: 0;
+  padding: 40px 0 20px 0;
+}
+
+.top-header {
+  font-weight: 900;
+  font-size: 1.4em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.top-header::after {
+  content: "|";
+  margin: 0 10px;
+  font-weight: 100;
+  color: #ccc;
+}
+
+.top-sub-header {
+  font-size: 1.2rem;
+  color: #aaa;
+  display: inline-block;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.item-list {
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.item {
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin: 10px;
+  position: relative;
+}
+
+.item:first-child {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.item:nth-child(2) {
+  margin: 0;
+}
+
+.item:nth-child(3),
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(6) {
+  margin: 0 10px 10px 0;
+}
+
+.item:nth-child(6) {
+  margin-right: 0;
+}
+
+.item:nth-child(7),
+.item:nth-child(8),
+.item:nth-child(9) {
+  margin: 0 10px 0 0;
+}
+.item:nth-child(9) {
+  margin-right: 0;
+}
+
+.item::after {
+  content: ">";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 17px;
+  background-color: #ccc6;
+  color: #fff;
+}
+
+.item:hover {
+  border: 1px solid #6363f7;
+
+  &::after {
+    background-color: #6363f7;
+    content: "구매하기 >";
+    font-size: 0.8rem;
+  }
+}
+
+.big-item {
+  width: 470px;
+  box-sizing: border-box;
+}
+
+.small-item {
+  box-sizing: border-box;
+}

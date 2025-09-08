@@ -1,0 +1,87 @@
+/* Universial selector */
+* {
+  font-size: 1rem;
+}
+
+/* id가 header인 태그의 스타일 */
+#header {
+  /* 배경색 */
+  background-color: blueviolet;
+  /* 글자 색상 */
+  color: white;
+}
+
+/* id가 main-container인 태그의 스타일
+    배경색 : yellow
+    글자색 : purple */
+#main-container {
+  background-color: yellow;
+  color: purple;
+  /* 글자의 크기를 다른 글자의 두배로 지정 */
+  font-size: 2rem;
+}
+
+/* id가 footer인 태그인 스타일 
+    글자색 : red
+    폰트크기 : 1.5배 */
+#footer {
+  color: red;
+  font-size: 1.5rem;
+}
+
+/* 클래스가 header-logo인 태그의 스타일
+    폰트의 크기 : 3배
+    정렬 : 가운데     
+*/
+.header--logo {
+  font-size: 3rem;
+  text-align: center;
+  background-color: brown;
+}
+
+/* 
+    클래스가 main-container--content인 태그의 스타일
+    폰트의 크기 : 0.5배
+    글자색 : red
+    정렬 왼쪽으로
+
+*/
+.main-container--content {
+  font-size: 0.5rem;
+  color: red;
+  text-align: left;
+}
+
+/* 클래스가 footer-links인 태그의 스타일
+    폰트의크기 : 1.245배
+    글자색 : cyan
+    정렬 : 가운데 */
+.footer-links {
+  font-size: 1.245rem;
+  color: cyan;
+  text-align: center;
+}
+/* 클래스가 footer-links--link인 태그의 스타일 
+    글자의 크기를 0.7배
+    글자의 색상 magenta
+    정렬 오른쪽
+*/
+.footer-links--link {
+  font-size: 0.7rem;
+  color: magenta;
+  text-align: right;
+}
+
+/* Tag Selector */
+/* 페이지 전체의 배경색을 밝은 회색으로 변경한다. */
+body {
+  background-color: lightgray;
+}
+/*페이지내의 모든div태그의 배경색을 aquamarine색으로 변경한다 */
+div {
+  background-color: aquamarine;
+}
+/* 페이지 내의 모든 p태그의 배경색을 red로 변경한다  */
+p {
+  background-color: red;
+}

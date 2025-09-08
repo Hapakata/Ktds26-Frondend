@@ -1,0 +1,33 @@
+.wrapper {
+  width: 500px;
+  background-color: #cccccc;
+  border: 2px solid #666666;
+  padding: 10px;
+  /* 가로 정렬  */
+  /* text-align: right; */
+  /* text-align: center; */
+  /* display: inline-block; */
+  margin: 0 auto;
+}
+
+.box {
+  width: 100px;
+  background-color: #aaaa00;
+  border: 2px solid #ff0000;
+  display: inline-block;
+  vertical-align: middle;
+  /* text-align: right; */
+}
+
+.box-a {
+  height: 100px;
+  vertical-align: top;
+}
+
+.box-b {
+  height: 150px;
+}
+
+.box-c {
+  height: 200px;
+}

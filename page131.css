@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: #333;
+  color: #333;
+}
+
+.wrapper {
+  background: white;
+  margin: 0 auto;
+  width: 70%;
+  min-width: 1400px;
+  padding: 10px;
+  text-align: center;
+}
+
+.section-1,
+.section-2,
+.section-3 {
+  background-color: #86f186;
+  margin: 10px;
+  display: inline-block;
+  width: 30%;
+  height: 40vh;
+}
+
+@media (min-width: 440px) {
+  .wrapper {
+    box-sizing: border-box;
+    min-width: 100vw;
+    width: 100vw;
+  }
+
+  .section-1,
+  .section-2,
+  .section-3 {
+    display: block;
+  }
+}

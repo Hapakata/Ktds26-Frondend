@@ -1,0 +1,22 @@
+.box {
+  background-color: antiquewhite;
+  margin: 10px;
+  border: 1px solid black;
+}
+.width-auto {
+  /* width값을 지정하지 않을 경우 자동으로 할당되는 크기, 디폴트값 줄필요없음! */
+  width: auto;
+}
+.width-half {
+  width: 50%;
+}
+.height-half {
+  /* 부모크기의 100프로로 채워라 */
+  height: 50%;
+}
+body {
+  height: 100%;
+}
+html {
+  height: 100%;
+}
