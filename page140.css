@@ -1,0 +1,107 @@
+.icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  & > input {
+    border: 0px;
+    outline: 0;
+    flex-grow: 1;
+  }
+  &::before {
+    display: inline-block;
+    content: "";
+    background-image: url("https://ssl.pstatic.net/static/nid/join/sprite/m_sp_06_realname_48b1e603.png");
+    background-position: -630px -11px;
+    width: 40px;
+    height: 40px;
+  }
+  &::after {
+    content: "@naver.com";
+    color: #777;
+  }
+}
+
+.checkbox {
+  & > label {
+    font-weight: 600;
+    font-size: 1.3rem;
+    vertical-align: middle;
+
+    &::before {
+      content: "";
+      background-image: url("https://ssl.pstatic.net/static/nid/join/sprite/m_sp_06_realname_48b1e603.png");
+      background-repeat: no-repeat;
+      background-position: -576px -321px;
+      background-size: 625px 522px;
+      vertical-align: middle;
+      width: 34px;
+      height: 34px;
+      margin-right: 10px;
+      display: inline-block;
+    }
+  }
+
+  & > input[type="checkbox"] {
+    display: none;
+    &:checked + label::before {
+      background-position: -576px -358px;
+    }
+  }
+}
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  & > div:first-child {
+    & > div:last-child {
+      color: #999;
+      font-size: 0.85rem;
+      padding: 10px 0 0 20px;
+    }
+  }
+
+  & > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+
+    & > div:first-child {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      & > label {
+        flex-grow: 1;
+      }
+
+      & > div {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+      }
+
+      & > * {
+        vertical-align: middle;
+      }
+    }
+
+    & > div:last-child {
+      height: 60px;
+      margin-left: 30px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: auto;
+    }
+  }
+}

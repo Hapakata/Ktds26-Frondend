@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="page132.css" type="text/css" />
+    <title>FormStyling</title>
+  </head>
+  <body>
+    <form>
+      <label for="user-id">아이디</label>
+      <input
+        type="text"
+        id="user-id"
+        placeholder="아이디를 입력하세요"
+        maxlength="5"
+      />
+
+      <label for="user-age">나이</label>
+      <input type="number" id="user-age" />
+      <input type="email" />
+      <input type="password" />
+      <input type="file" />
+
+      <label for="job-1">학생</label>
+      <input type="radio" name="job" id="job-1" />
+      <label for="job-2">직장인</label>
+      <input type="radio" name="job" id="job-2" />
+      <label for="job-3">취준생</label>
+      <input type="radio" name="job" id="job-3" />
+      <label for="job-4">알바</label>
+      <input type="radio" name="job" id="job-4" />
+      <input type="checkbox" name="favorite" />
+      <input type="checkbox" name="favorite" />
+      <input type="checkbox" name="favorite" />
+      <input type="button" value="클릭해보세요" />
+      <input type="date" />
+      <input type="range" />
+      <input type="color" />
+
+      <label for="description">내용을 입력하세요</label>
+      <textarea name="textarea" id="description"></textarea>
+
+      <label for="choice-one">선택하세요.</label>
+      <select id="choice-one">
+        <option>첫 번째</option>
+        <option>두 번째</option>
+        <option>세 번째</option>
+      </select>
+    </form>
+  </body>
+</html>
