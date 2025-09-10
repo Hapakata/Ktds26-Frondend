@@ -1,0 +1,26 @@
+.interactive {
+  box-shadow: 0px 0px #ccc 10px;
+  margin: 100px;
+  transition: transform 100s;
+}
+
+.interactive:hover {
+  /*transform: scale(2, 2);*/
+  transform: rotate(90000deg);
+  /*transform: translate(100px, 200px);*/
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #ff9f5e;
+  border-radius: 10px;
+  transition: border-radius 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.box:hover {
+  border-radius: 50px;
+  background-color: rgb(135, 255, 215);
+  transform: rotate(180deg);
+  transform: border-radiu(45px);
+}

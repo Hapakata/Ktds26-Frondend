@@ -1,0 +1,10 @@
+.result {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 1px solid red;
+}
+
+.clicked {
+  background-color: blue;
+}
