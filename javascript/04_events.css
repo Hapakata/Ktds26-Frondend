@@ -2,9 +2,19 @@
   width: 100px;
   height: 100px;
   background-color: #fff;
-  border: 1px solid red;
+  border: 1px solid #f00;
 }
 
 .clicked {
-  background-color: blue;
+  background-color: #00f;
+}
+
+.block {
+  position: fixed;
+  z-index: 999999999999;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000;
 }

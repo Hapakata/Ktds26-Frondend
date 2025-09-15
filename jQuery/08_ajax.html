@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="08_ajax.css" type="text/css" />
+    <script src="jquery-3.7.1.min.js" type="text/javascript"></script>
+    <script src="08_ajax_jquery.js" type="text/javascript"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="spinner"></div>
+    <button class="load-git-users" type="button">Load Git Users</button>
+    <button class="load-comments" type="button">Load Comments</button>
+
+    <h1>Posts</h1>
+    <ul class="posts"></ul>
+    <h1>Comments</h1>
+    <ul class="comments"></ul>
+    <template id="post-item-template">
+      <li data-user-id="#data-id#" data-id="#id#">
+        <div class="title">#title#</div>
+        <div class="body">#body#</div>
+      </li>
+    </template>
+    <template id="comments-item-template">
+      <li data-user-id="#post-id#" data-id="#id#">
+        <div class="body">#body#</div>
+      </li>
+    </template>
+  </body>
+</html>
